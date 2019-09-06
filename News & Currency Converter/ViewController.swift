@@ -30,12 +30,16 @@ class ViewController: UIViewController, UIPickerViewDelegate,
     @IBOutlet weak var pickerView2: UIPickerView!
     
     //fake data..
-    var age = ["20-30", "50-60", "70-100"]
+    //var age = ["20-30", "50-60", "70-100"]
     var genderType = ["male", "female", "hybrid"]
     
     //Testing with real data..
-    var rateKey: [String] = []
-    var rateData: [Double] = []
+    //var rateKey: [String] = []
+    //var rateData: [Double] = []
+    
+    var age = []
+    
+    
     
     
     //Testing purposes
